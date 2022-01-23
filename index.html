@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <!-- Firebase SDK CODE ADD BELOW -->
+    <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyC0f_6YkVcIaww4CIi_Rdvg5w1gxiv_wy4",
+      authDomain: "car-game-de27a.firebaseapp.com",
+      databaseURL: "https://car-game-de27a-default-rtdb.firebaseio.com",
+      projectId: "car-game-de27a",
+      storageBucket: "car-game-de27a.appspot.com",
+      messagingSenderId: "861372559939",
+      appId: "1:861372559939:web:014b14980eaa543bc05af6"
+    };
+    
+    // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
